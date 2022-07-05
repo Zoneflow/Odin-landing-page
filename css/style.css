@@ -1,0 +1,108 @@
+body {
+    background-color: black;
+    margin:0;
+    padding:0;
+}
+
+.first-section {
+    background-color: #1F2937;
+    color: white;
+    height:400px;
+    display:flex;
+    flex-direction: column;
+}
+.first-section ul {
+    list-style-type: none;
+    display:flex;
+}
+
+.header {
+    display:flex;
+    justify-content: space-between;
+}
+
+.hero {
+    display:flex;
+    padding:48px;
+}
+.hero-left {
+    /* background-color: red; */
+}
+
+.hero-right {
+    background-color: grey;
+}
+
+.second-section {
+    background-color: white;
+    height:400px;
+    display:flex;
+    flex-direction: column;
+}
+
+.info-box-container {
+    display:flex;
+    justify-content: space-between;
+}
+
+.info-image {
+    height:100px;
+    width:100px;
+    border:4px solid;
+    border-color: #3882F6;
+    border-radius:15px;
+}
+
+.third-section {
+    background-color:#E5E7EB;
+    height:400px;
+    display:flex;
+    flex-direction: column;
+}
+
+.quote {
+    font-size:36px;
+    font-style:italic;
+    color:#1F2937;
+    font-family:Roboto;
+}
+
+.quote-author {
+    color:#1F2937;
+    font-weight: 700;
+    align-self: flex-end;
+}
+
+.fourth-section {
+    background-color: white;
+    height:400px;
+    display:flex;
+    justify-content:center
+}
+
+.cta{
+    background-color: #3882F6;
+    color:white;
+    display:flex;
+    flex:1;
+    margin:100px;
+    padding:25px;
+    justify-content:center;
+    align-items:center;
+    border-radius:15px;
+    gap:15px;
+}
+
+.cta-button {
+    border:white solid 2px;
+    color:white;
+    background-color: #3882F6;
+    border-radius:5px;
+}
+
+/*TODO - 
+1)style first sign-up button
+-First section image should be half the screen
+-center everything in sections 2,3,4
+-margin and padding on header links
+-margin and padding 
