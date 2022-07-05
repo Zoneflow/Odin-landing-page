@@ -151,9 +151,11 @@ body {
     height:30px;
 }
 
-/*TODO - 
-1)style first sign-up button
--First section image should be half the screen
--center everything in sections 2,3,4
--margin and padding on header links
--margin and padding 
+.footer {
+    background-color: #1F2937;
+    color:white;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100px;
+}
