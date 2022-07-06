@@ -36,10 +36,11 @@ li a {
     display:flex;
     align-items:center;
     padding:48px;
+    margin-left: 48px;
+    margin-right:48px;
     gap:48px;
 }
 .hero-left {
-    /* background-color: red; */
     flex:1;
     display:flex;
     flex-direction: column;
